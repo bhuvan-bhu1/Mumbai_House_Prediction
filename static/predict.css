@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    margin: 0px;
+  }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+.bg{
+  background-image: url("mumbai.jpg");
+  height: 562px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.contain{
+    position: absolute;
+    width: 450px;
+    top: 60px;
+    left: 20px;
+}
+.end{
+  color: greenyellow;
+}
+.start{
+    color: red;
+}
+h2{
+    left: 300px;
+    font-style: italic;
+    position: absolute;
+}

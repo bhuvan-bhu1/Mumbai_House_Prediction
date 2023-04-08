@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  position: relative;
+  background-image: url("mumbai.jpg");
+  /* opacity: 0.6; */
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  margin: 60px 0 0 80px ;
+  position: absolute;
+  color: black;
+  z-index: 10;
+  width: 300px;
+  height: 350px;
+}
+label{
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+input{
+  height: 20px;
+  width: 190px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#submit {
+  height: 24px;
+  width: 197px;
+  margin-top: 10px;
+  color: white;
+  background-color:  #5078cf;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+h2{
+  left: 300px;
+  font-style: italic;
+  position: absolute;
+}

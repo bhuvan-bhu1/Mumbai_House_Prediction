@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prediction</title>
+    <link rel="stylesheet" href="/static/predict.css">
+</head>
+<body>
+  <div class="bg">
+    <h2>Mumbai House Prediction</h2>
+    <div class="contain">
+      <table>
+          <tr>
+            <th class="start">Feature</th>
+            <th class="start">Selected</th>
+          </tr>
+          <tr>
+            <td>Square Feet</td>
+            <td>{{ sqft }}</td>
+          </tr>
+          <tr>
+            <td>Bedrooms</td>
+            <td>{{ bed }}</td>
+          </tr>
+          <tr>
+            <td>Class</td>
+            <td>{{ clas }}</td>
+          </tr>
+          <tr>
+            <td>Place</td>
+            <td>{{ place }}</td>
+          </tr>
+          <tr>
+            <td class="end">Estimated Price</td>
+            <td class="end">{{ final }} Crore</td>
+          </tr>
+        </table>
+    </div>
+  </div>    
+</body>
+</html>
